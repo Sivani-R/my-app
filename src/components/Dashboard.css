@@ -1,0 +1,41 @@
+.dashboard-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    background-image: url('https://img.freepik.com/free-vector/abstract-realistic-technology-particle-background_23-2148431736.jpg?t=st=1723222832~exp=1723226432~hmac=0dc2a8c8c4c361a56af63635febcb76f3f2ca06837657540817d873892412ab4&w=900');
+    background-size: cover;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.user-details {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.user-details h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.user-details p {
+    font-size: 16px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-details p strong {
+    font-weight: bold;
+}
+
+.heading {
+    color: white;
+}

@@ -1,0 +1,46 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    background-image: url('https://img.freepik.com/free-vector/gradient-hexagonal-background_79603-1630.jpg?t=st=1723222154~exp=1723225754~hmac=b9aac2bdad59d44c3de626154854e0042e48da780e85fc9a4f5d1225747acd35&w=900');
+    background-size: cover;
+}
+
+.signup-form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.signup-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.signup-form input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signup-form button {
+    width: 95%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background-color: #218838;
+}
